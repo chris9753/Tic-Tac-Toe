@@ -13,6 +13,9 @@
 		85F7C2821A5AE78300079612 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85F7C2811A5AE78300079612 /* Images.xcassets */; };
 		85F7C2851A5AE78300079612 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85F7C2831A5AE78300079612 /* LaunchScreen.xib */; };
 		85F7C2911A5AE78300079612 /* Tic_Tac_ToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F7C2901A5AE78300079612 /* Tic_Tac_ToeTests.swift */; };
+		85F7C29D1A5AE7A300079612 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 85F7C29A1A5AE7A300079612 /* board.png */; };
+		85F7C29E1A5AE7A300079612 /* letter-o-md.png in Resources */ = {isa = PBXBuildFile; fileRef = 85F7C29B1A5AE7A300079612 /* letter-o-md.png */; };
+		85F7C29F1A5AE7A300079612 /* painted-x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85F7C29C1A5AE7A300079612 /* painted-x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		85F7C28A1A5AE78300079612 /* Tic Tac ToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic Tac ToeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F7C28F1A5AE78300079612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85F7C2901A5AE78300079612 /* Tic_Tac_ToeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeTests.swift; sourceTree = "<group>"; };
+		85F7C29A1A5AE7A300079612 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		85F7C29B1A5AE7A300079612 /* letter-o-md.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "letter-o-md.png"; sourceTree = "<group>"; };
+		85F7C29C1A5AE7A300079612 /* painted-x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "painted-x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,9 @@
 				85F7C27C1A5AE78300079612 /* ViewController.swift */,
 				85F7C27E1A5AE78300079612 /* Main.storyboard */,
 				85F7C2811A5AE78300079612 /* Images.xcassets */,
+				85F7C29A1A5AE7A300079612 /* board.png */,
+				85F7C29B1A5AE7A300079612 /* letter-o-md.png */,
+				85F7C29C1A5AE7A300079612 /* painted-x.png */,
 				85F7C2831A5AE78300079612 /* LaunchScreen.xib */,
 				85F7C2781A5AE78300079612 /* Supporting Files */,
 			);
@@ -192,8 +201,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85F7C29D1A5AE7A300079612 /* board.png in Resources */,
 				85F7C2801A5AE78300079612 /* Main.storyboard in Resources */,
+				85F7C29F1A5AE7A300079612 /* painted-x.png in Resources */,
 				85F7C2851A5AE78300079612 /* LaunchScreen.xib in Resources */,
+				85F7C29E1A5AE7A300079612 /* letter-o-md.png in Resources */,
 				85F7C2821A5AE78300079612 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
